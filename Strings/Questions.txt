@@ -1,0 +1,45 @@
+
+Reverse a String - done
+
+Check if Two Strings are Anagrams - done 
+
+Check if a String is a Palindrome - done 
+
+Find the First Non-repeating Character in a String - done 
+
+Count the Occurrences of a Given Character in a String - done
+
+Remove Duplicates from a String - done
+
+Check if a String Contains Only Digits - done
+
+Check if Two Strings are Rotations of Each Other - done
+
+count the Number of Vowels and Consonants in a String - done 
+------------------------------------------------------------------------------
+
+Find All Permutations of a Given String
+
+Convert a String to Integer (Implement atoi)
+
+Find the Length of the Longest Substring without Repeating Characters
+
+Find the Longest Palindromic Substring 
+
+Find the Longest Common Prefix Among a Set of Strings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find the Most Frequent Character in a String
