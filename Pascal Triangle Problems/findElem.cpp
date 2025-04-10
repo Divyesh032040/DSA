@@ -1,37 +1,41 @@
-#include <bits/stdc++.h>
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
 using namespace std;
-
-int ncr(int n, int r)
-{
-    int res = 1;
-    for (int i = 0; i < r; i++)
-    {
-        res = res * (n - i);
-        res = res / (i + 1);
+int fectorial(int n){
+    if(n==0){
+        return 1;
     }
-    return res;
+    return n*fectorial(n-1);
 }
+int main(){
+    
+    int n;
+    cout<<"entern row num"<<endl;
+    cin>>n;
+    
+    int r;
+    cout<<"enter elem num"<<endl;
+    cin>>r;
+    
+    int p = n-r;
+    
+    
+    int nfec = fectorial(n-1);
+    int rfec = fectorial(r-1);
+    int nminr = fectorial(p);
+    
+    int ans = nfec / (rfec * (nminr));
+    
+    cout<<ans<<endl;
+    
+    
 
-int pascalTriangle(int r, int c)
-{
-    int element = ncr(r - 1, c - 1);
-    return element;
-}
-
-int main()
-{
-    int r = 5; // row number
-    int c = 3; // col number
-    int element = pascalTriangle(r, c);
-    cout << "The element at position (r,c) is: "
-         << element << "n";
     return 0;
 }
-
-/*
-
-formula to find single element in pascal triangle is row-1
-                                                          C
-                                                           col-1
-
- */

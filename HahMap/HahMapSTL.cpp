@@ -1,4 +1,4 @@
- #include <bits/stdc++.h> 
+#include <bits/stdc++.h> 
 using namespace std;
 
 //its sort version , go in STL folder 

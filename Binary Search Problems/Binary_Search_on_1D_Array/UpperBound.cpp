@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 // Problem Statement: Given a sorted array of N integers and an integer x, write a program to find the upper bound of x.
 
@@ -48,7 +48,7 @@ int main()
 }
 
 // ans will be 3 because lowest index which is greater than equal to 9 is 15 which is at index 3.
-=======
+
 
 // Problem Statement: Given a sorted array of N integers and an integer x, write a program to find the upper bound of x.
 
@@ -98,5 +98,5 @@ int main()
 }
 
 // ans will be 3 because lowest index which is greater than equal to 9 is 15 which is at index 3.
->>>>>>> c1d1bdc (update)
+
 // time complexity : log base 2 of n : O(log n)

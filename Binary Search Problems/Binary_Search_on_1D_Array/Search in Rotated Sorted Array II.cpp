@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 
 her in sorted rotated arr contain also duplicate elements and we have to identify is there is given target int is there or not. return true if there else false.
@@ -61,7 +61,7 @@ public:
         }
         return false;
     }
-=======
+
 /*
 
 her in sorted rotated arr contain also duplicate elements and we have to identify is there is given target int is there or not. return true if there else false.
@@ -124,5 +124,4 @@ public:
         }
         return false;
     }
->>>>>>> c1d1bdc (update)
 };
