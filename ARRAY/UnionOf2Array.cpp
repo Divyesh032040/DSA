@@ -20,7 +20,7 @@ vector<int> unionArrayBruteForce(vector<int>a , vector<int>b){
     //SC: o(n1+n2) + o(n1+n2):for return a ans for for find ans
 }
 
-//optimal - use 2 pinter approach 
+//optimal - use 2 pointer approach 
 
 vector<int> unionArrayOptimal (vector<int>a,vector<int>b){
     
@@ -30,7 +30,7 @@ vector<int> unionArrayOptimal (vector<int>a,vector<int>b){
     int i = 0;
     int j = 0;
     
-    vector<int>ans;
+    vector<int>ans;00
 
     while( i<n1 && j<n2){
         if(a[i]<=b[j]){
@@ -39,12 +39,12 @@ vector<int> unionArrayOptimal (vector<int>a,vector<int>b){
             }
             i++;
         }else{
-            if(b[j]<=a[i]){
+            
             if( ans.size()==0 || ans.back() != b[j]){
                 ans.push_back(b[j]);
             }
             j++;
-        }
+        
         }
     }
 

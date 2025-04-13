@@ -1,0 +1,12 @@
+# Ignore all .exe files (compiled C++ binaries)
+*.exe
+
+# Optional: Ignore other common build artifacts
+*.o
+*.obj
+*.out
+*.log
+
+# Optional: Ignore build directories (if you use one)
+build/
+bin/
