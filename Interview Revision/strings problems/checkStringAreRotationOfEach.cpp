@@ -3,16 +3,24 @@
 using namespace std;
 
 bool checkStringAreRotationOfEach(string str1 , string str2){
+        if (str1.length() != str2.length()) return false;
 
-    string temp1 = str1;
-    string temp2 = str2;
-    sort(temp1.begin(),temp1.end());
-    sort(temp2.begin(),temp2.end());
+        string temp = str1 + str1;
 
-    if(temp1 != temp2){
-        return false;
-    }
-    return true;
+        return temp.find(str2) != string::npos;
+}
+
+
+
+bool checkStringAreRotationOfEachOptimal(string str1 , string str2){
+
+    string temp = str1+str1;
+    int n = temp.length();
+
+    bool ans = temp.find(str2);
+
+    return bool;
+
 
 }
 
@@ -24,7 +32,7 @@ int main() {
 
     string str2 = "cdab";
 
-    cout<<checkStringAreRotationOfEach(str1,str2);
+    cout<<checkStringAreRotationOfEachOptimal(str1,str2);
 
 return 0;
 }
