@@ -57,6 +57,7 @@ vector<vector<int>> threeSumOptimal(vector<int> arr, int n)
 
     vector<vector<int>> ans;
     sort(arr.begin(), arr.end());
+    
     for (int i = 0; i < n; i++)
     {
         if (i > 0 && arr[i] == arr[i - 1])
